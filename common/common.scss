@@ -1,0 +1,21 @@
+.post-retort {
+  background: $secondary;
+
+  img.emoji {
+    max-width: 80px;
+    max-height: 20px;
+    width: initial;
+    height: initial;
+  }
+
+  .post-retort__count {
+    color: $primary;
+  }
+}
+
+.emoji-picker {
+  button.emoji[title*='_retort'] {
+    width: 80px;
+    background-size: 80px 20px;
+  }
+}
